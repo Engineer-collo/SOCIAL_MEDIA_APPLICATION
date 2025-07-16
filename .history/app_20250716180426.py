@@ -18,7 +18,7 @@ app.config['SQLALCHEMY_TRACKMODIFICATIONS'] = False
 @app.route('/', methods=['GET'])
 def index():
     response = {
-        "message" : 'Hello from my Flask app!'
+        "message" : 'Hello from  Flask app!'
     }
     return jsonify(response)
 
