@@ -19,7 +19,7 @@ app.config['SQLALCHEMY_TRACKMODIFICATIONS'] = False
 def index():
     response = {
         "message" : 'Hello from Flask application!'
- }
+    }
     return jsonify(response)
 
 if __name__ == '__main__':
